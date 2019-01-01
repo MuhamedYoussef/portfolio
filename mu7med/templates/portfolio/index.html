@@ -1,0 +1,321 @@
+{% extends 'base.html' %} {% load static %}
+
+<!-- Index content -->
+{% block content %}
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="sideNav">
+  <a class="navbar-brand js-scroll-trigger" href="#page-top">
+    <span class="d-block d-lg-none">Mohamed Youssef</span>
+    <span class="d-none d-lg-block">
+      <img
+        class="img-fluid img-profile rounded-circle mx-auto mb-2"
+        src="{% static 'images/profile.jpg' %}"
+        alt=""
+      />
+    </span>
+  </a>
+  <button
+    class="navbar-toggler"
+    type="button"
+    data-toggle="collapse"
+    data-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+  >
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link js-scroll-trigger" href="#about">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link js-scroll-trigger" href="#dev">Development</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container-fluid p-0">
+  <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
+    <div class="my-auto">
+      <h1 class="mb-0">Mohamed <span class="text-primary">Youssef</span></h1>
+      <div class="subheading mb-5">
+        Cairo, Egypt · (010) 9797-5756 ·
+        <a href="mailto:name@email.com">Mu7med.Youssef@gmail.com</a>
+      </div>
+      <p class="lead mb-5">
+        I am experienced in Django framework to provide a robust synopsis for
+        high level overviews. Creating powerful backend to serve responsive and
+        user friendly UI
+      </p>
+      <div class="social-icons">
+        <a href="https://www.linkedin.com/in/muhamed-youssef/" target="_blank">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="https://github.com/MuhamedYoussef" target="_blank">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://twitter.com/Mu7amedYousef" target="_blank">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://www.facebook.com/MuhmedYoussef/" target="_blank">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <hr class="m-0" />
+
+  <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
+    <div class="my-auto">
+      <h2 class="mb-5">Wrok Experience</h2>
+
+      <div class="resume-item d-flex flex-column flex-md-row mb-5">
+        <div class="resume-content mr-auto">
+          <h3 class="mb-0">Software Developer</h3>
+          <div class="subheading mb-3">Free Lancer @ Upwork</div>
+          <p></p>
+        </div>
+        <div class="resume-date text-md-right">
+          <span class="text-primary">October 2018 - Present</span>
+        </div>
+      </div>
+
+      <div class="resume-item d-flex flex-column flex-md-row mb-5">
+        <div class="resume-content mr-auto">
+          <h3 class="mb-0">Premium Support</h3>
+          <div class="subheading mb-3">Telecom Egypt</div>
+          <p>
+            Support ADSL and FTTH technical and sales inquiries for bussiness
+            level and special customers - used to handle any case and under any
+            level of ruch hours - provide creative selutions for customers and
+            follow up with them to achieve highest satisfiction and best user
+            experience.
+          </p>
+        </div>
+        <div class="resume-date text-md-right">
+          <span class="text-primary">August 2017 - October 2018</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="dev">
+    <div class="my-auto">
+      <h2 class="mb-5">Development</h2>
+
+      <div class="resume-item d-flex flex-column flex-md-row mb-5">
+        <div class="resume-content mr-auto">
+          <h3 class="mb-0">Front-End Development</h3>
+          <p>
+            Created several projects with React Framework and Redux, I use
+            Materialize CSS, Bootstrap and i write my custom styles for UI or
+            theming any design libarary creating beautiful responsive
+            applications
+          </p>
+        </div>
+      </div>
+
+      <div class="resume-item d-flex flex-column flex-md-row mb-5">
+        <div class="resume-content mr-auto">
+          <h3 class="mb-0">Back-End Development</h3>
+          <p>
+            Using Node and Python i can create a wonderful APIs by their most
+            popular frameworks Express and Django. For databases, i use MongoDB
+            Firebase and Postgresql
+          </p>
+        </div>
+      </div>
+
+      <div class="resume-item d-flex flex-column flex-md-row mb-5">
+        <div class="resume-content mr-auto">
+          <h3 class="mb-0">Design Background</h3>
+          <p>
+            I have a good background with Adobe Illustrator, After effects and
+            Premiere pro. I've also created advertisement video for DOORS
+            company.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="m-0" />
+
+  <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
+    <div class="my-auto">
+      <h2 class="mb-5">Education</h2>
+
+      <div class="resume-item d-flex flex-column flex-md-row mb-5">
+        <div class="resume-content mr-auto">
+          <h3 class="mb-0">Ain Shams Universty</h3>
+          <div class="subheading mb-3">Bachelor’s Degree in Commerce</div>
+          <div>Major in Accounting</div>
+          <!-- <p>GPA: 3.23</p> -->
+        </div>
+        <div class="resume-date text-md-right">
+          <span class="text-primary">2013 - 2017</span>
+        </div>
+      </div>
+
+      <div class="resume-item d-flex flex-column flex-md-row mb-5">
+        <div class="resume-content mr-auto">
+          <h3 class="mb-0">Cisco CCNA</h3>
+          <div class="subheading mb-3">cisco certified network associate</div>
+          <div>Certificate Verification No. 429534169743COUI</div>
+        </div>
+        <div class="resume-date text-md-right">
+          <span class="text-primary">August 2002 - May 2006</span>
+        </div>
+      </div>
+
+      <div class="resume-item d-flex flex-column flex-md-row">
+        <div class="resume-content mr-auto">
+          <h3 class="mb-0">ITTA Labs</h3>
+          <div class="subheading mb-3">Networking diploma</div>
+          <div>
+            Studied Networking basics (N+). And advanced concepts (CCNA) -
+            Practice all kind of network topologies on networking devices. faced
+            and solved different types of network issues
+          </div>
+        </div>
+        <div class="resume-date text-md-right">
+          <span class="text-primary">March 2016 - October 2016</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="m-0" />
+
+  <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
+    <div class="my-auto">
+      <h2 class="mb-5">Skills</h2>
+
+      <div class="subheading mb-3">Programming Languages &amp; Tools</div>
+      <ul class="list-inline dev-icons">
+        <li class="list-inline-item"><i class="fab fa-html5"></i></li>
+        <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
+        <li class="list-inline-item"><i class="fab fa-sass"></i></li>
+        <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
+        <li class="list-inline-item"><i class="fab fa-react"></i></li>
+        <li class="list-inline-item"><i class="fab fa-node-js"></i></li>
+        <li class="list-inline-item"><i class="fab fa-npm"></i></li>
+        <li class="list-inline-item"><i class="fab fa-python"></i></li>
+      </ul>
+
+      <div class="subheading mb-3">Workflow</div>
+      <ul class="fa-ul mb-0">
+        <li>
+          <i class="fa-li fa fa-check"></i> Mobile-First, Responsive Design
+        </li>
+        <li>
+          <i class="fa-li fa fa-check"></i> Cross Browser Testing &amp;
+          Debugging
+        </li>
+        <li><i class="fa-li fa fa-check"></i> Cross Functional Teams</li>
+        <li><i class="fa-li fa fa-check"></i> Agile Development &amp; Scrum</li>
+      </ul>
+    </div>
+  </section>
+
+  <hr class="m-0" />
+
+  <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
+    <div class="my-auto">
+      <h2 class="mb-5">Interests</h2>
+      <p>
+        Apart from being a web developer, I enjoy most of my time being
+        outdoors. I do Street workout and run also i like video games, i have a
+        plan to travel the world and experience new things and people, i love
+        adventure.
+      </p>
+      <p class="mb-0">
+        I've always had a passion about computer and technology, so I choose it
+        as a career and I always want to know more and be updated.
+      </p>
+    </div>
+  </section>
+
+  <hr class="m-0" />
+
+  <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="projects">
+    <div class="my-auto">
+      <h2 class="mb-5">Projects</h2>
+      <div class="card-columns">
+        <div class="card bg-dark shadow" style="max-width: 18rem;">
+          <img
+            src="{% static 'images/stylek.png' %}"
+            class="card-img-top"
+            alt="Stylek"
+          />
+          <div class="card-body">
+            <h4 class="card-title">Stylek</h4>
+            <p class="card-text">
+              Powerful and easy to use search engine and Blog app
+            </p>
+            <a
+              href="https://stylek.herokuapp.com"
+              class="btn btn-primary m-1"
+              target="_blank"
+            >
+              View Site
+            </a>
+            <a
+              href="https://github.com/MuhamedYoussef/stylek"
+              class="btn btn-outline-primary m-1"
+              target="_blank"
+            >
+              Github rebo
+            </a>
+          </div>
+        </div>
+        <div class="card bg-dark shadow" style="max-width: 18rem;">
+          <img
+            src="{% static 'images/egyguid.png' %}"
+            class="card-img-top"
+            alt="egyguid"
+          />
+          <div class="card-body">
+            <h4 class="card-title">Egyguid</h4>
+            <p class="card-text">
+              Explore Egypt and share your journey with our community
+            </p>
+            <a
+              href="https://egyguid.herokuapp.com/"
+              class="btn btn-primary m-1"
+              target="_blank"
+            >
+              View Site
+            </a>
+            <a
+              href="https://github.com/MuhamedYoussef/egyguid"
+              class="btn btn-outline-primary m-1"
+              target="_blank"
+            >
+              Github rebo
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+{% endblock %}
