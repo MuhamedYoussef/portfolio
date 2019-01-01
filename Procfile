@@ -1,1 +1,1 @@
-web: gunicorn mu7med.wsgi
+web: gunicorn mu7med/mu7med.wsgi
