@@ -45,7 +45,11 @@
         <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+        <a class="nav-link js-scroll-trigger" href="#projects">
+          Projects
+          <span class="badge badge-pill badge-warning" style="margin-right: -50px;">NEW</span>
+        </a>
+        
       </li>
     </ul>
   </div>
@@ -128,7 +132,7 @@
           <h3 class="mb-0">Front-End Development</h3>
           <p>
             Created several projects with React Framework and Redux, I use
-            Materialize CSS, Bootstrap and i write my custom styles for UI or
+            Materialize CSS, Bootstrap and write my custom styles for UI or
             theming any design libarary creating beautiful responsive
             applications
           </p>
@@ -227,7 +231,7 @@
       <div class="subheading mb-3">Workflow</div>
       <ul class="fa-ul mb-0">
         <li>
-          <i class="fa-li fa fa-check"></i> Mobile-First, Responsive Design
+          <i class="fa-li fa fa-check"></i> Mobile-First, Modern and Responsive Design
         </li>
         <li>
           <i class="fa-li fa fa-check"></i> Cross Browser Testing &amp;
@@ -262,16 +266,20 @@
   <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="projects">
     <div class="my-auto">
       <h2 class="mb-5">Projects</h2>
-      <div class="card-columns">
+      <div class="row">
         <!-- Stylek -->
-        <div class="card bg-dark shadow" style="max-width: 18rem;">
+        <div class="col-lg-4 col-md-4 col-sm-6 my-2">
+        <div
+          class="card bg-dark shadow"
+          style="max-width: 18rem;height:100%;"
+        >
           <img
             src="{% static 'images/stylek.PNG' %}"
             class="card-img-top"
             alt="Stylek"
           />
           <div class="card-body">
-            <h4 class="card-title">Stylek</h4>
+            <h4 class="card-title text-light">Stylek</h4>
             <p class="card-text">
               Powerful and easy to use search engine and Blog app
             </p>
@@ -291,15 +299,20 @@
             </a>
           </div>
         </div>
+      </div>
         <!-- EgyGuid -->
-        <div class="card bg-dark shadow" style="max-width: 18rem;">
+        <div class="col-lg-4 col-md-4 col-sm-6 my-2">
+        <div
+          class="card bg-dark shadow"
+          style="max-width: 18rem;height:100%;"
+        >
           <img
             src="{% static 'images/egyguid.png' %}"
             class="card-img-top"
             alt="egyguid"
           />
           <div class="card-body">
-            <h4 class="card-title">Egyguid</h4>
+            <h4 class="card-title text-light">Egyguid</h4>
             <p class="card-text">
               Explore Egypt and share your journey with our community
             </p>
@@ -319,18 +332,21 @@
             </a>
           </div>
         </div>
+      </div>
         <!-- TechStore -->
-        <div class="card bg-dark shadow" style="max-width: 18rem;">
+        <div class="col-lg-4 col-md-4 col-sm-6 my-2">
+        <div
+          class="card bg-dark shadow"
+          style="max-width: 18rem;height:100%;"
+        >
           <img
             src="{% static 'images/techstore.png' %}"
             class="card-img-top"
             alt="egyguid"
           />
           <div class="card-body">
-            <h4 class="card-title">TechStore</h4>
-            <p class="card-text">
-              E-Commerce website for hackers :)
-            </p>
+            <h4 class="card-title text-light">TechStore</h4>
+            <p class="card-text">E-Commerce website for hackers :)</p>
             <a
               href="https://techstor.herokuapp.com/"
               class="btn btn-primary font-weight-bold m-1"
@@ -340,6 +356,37 @@
             </a>
             <a
               href="https://github.com/MuhamedYoussef/techstore"
+              class="btn btn-outline-primary m-1"
+              target="_blank"
+            >
+              Github rebo
+            </a>
+          </div>
+        </div>
+      </div>
+        <!-- YT Downloader -->
+        <div class="col-lg-4 col-md-4 col-sm-6 my-2">
+        <div
+          class="card bg-dark shadow"
+          style="max-width: 18rem;height:100%;"
+        >
+          <img
+            src="{% static 'images/yt.png' %}"
+            class="card-img-top"
+            alt="egyguid"
+          />
+          <div class="card-body">
+            <h4 class="card-title text-light">YouTube Downloader</h4>
+            <p class="card-text">Download almost any video from YouTube</p>
+            <a
+              href="https://joeapps.herokuapp.com/downloader/"
+              class="btn btn-primary font-weight-bold m-1"
+              target="_blank"
+            >
+              View Site
+            </a>
+            <a
+              href="https://github.com/MuhamedYoussef/joeapps"
               class="btn btn-outline-primary m-1"
               target="_blank"
             >
