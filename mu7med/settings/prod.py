@@ -1,9 +1,9 @@
 from .base import *
 SECRET_KEY = os.environ.get('SECRET_KEY')
-DEBUG = True
-ADMINS = (
-    ('Mohamed Youssef', 'mu7med.youssef@gmail.com'),
-)
+DEBUG = False
+# ADMINS = (
+#     ('Mohamed Youssef', 'mu7med.youssef@gmail.com'),
+# )
 ALLOWED_HOSTS = ['mu7med.herokuapp.com']
 DATABASES = {
     'default': {
